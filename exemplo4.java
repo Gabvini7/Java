@@ -39,13 +39,13 @@ public class exemplo4 {
 			if (media >=6) {
 				System.out.println("Alunos aprovados");
 			
-				System.out.printf("%s\n",nome);}}
+				System.out.printf("%s\n",nome[i]);}}
 			
 			for (int j=0; j<n; j++) {
 				media= (nota1[j]+nota2[j])/2;
 		     if (media <6){
 				System.out.println("Alunos reprovados");
-				System.out.printf("%s\n",nome);
+				System.out.printf("%s\n",nome[j]);
 		}
 	
 		sc.close();
